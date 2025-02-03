@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Coffee Submission Website</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <h1>Coffee Submission Website</h1>
+    <form action="https://www.w3schools.com/action_page.php" method="get">
+      <label for="name">First name & Last name:</label>
+      <input type="text" id="name" name="name" /><br /><br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" /><br /><br />
+      <label for="coffeetype">Coffee Type:</label>
+      <select id="coffeetype" name="coffeetype">
+        <option value="option1">Latte</option>
+        <option value="option2">Cappuccino</option>
+        <option value="option3">Americano</option>
+        <option value="option4">Espresso</option>
+      </select>
+      <p></p>
+      <label for="size">Coffee Size:</label>
+      <p></p>
+      <input type="radio" id="small" name="size" value="small" />
+      <label for="small">Small</label><br />
+
+      <input type="radio" id="medium" name="size" value="medium" />
+      <label for="medium">Medium</label><br />
+
+      <input type="radio" id="large" name="size" value="large" />
+      <label for="large">Large</label><br />
+      <p></p>
+
+      <label for="extra">Extras:</label>
+      <p></p>
+      <input
+        type="checkbox"
+        id="whipped cream"
+        name="whipped cream"
+        value="whipped cream"
+      />
+      <label for="whipped cream"> Whipped Cream</label><br />
+      <input type="checkbox" id="extra shot" name="extra shot" value="Car" />
+      <label for="extra shot"> Extra Shot</label><br />
+      <input type="checkbox" id="almond milk" name="almond milk" value="Boat" />
+      <label for="almond milk"> Almond Milk</label><br />
+      <p></p>
+      <label for="special requests">Special Requests:</label>
+      <textarea
+        placeholder="Enter text here"
+        rows="1"
+        name="special requests"
+        id="special requests"
+      ></textarea>
+      <p></p>
+      <button type="submit" id="myButton" class="float-left submit-button">
+        Submit
+      </button>
+    </form>
+  </body>
+</html>
