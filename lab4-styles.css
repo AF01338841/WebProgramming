@@ -1,0 +1,30 @@
+body {
+  background-color: lightsteelblue;
+  font-family: Arial, sans-serif;
+}
+h1 {
+  color: red;
+  text-align: center;
+}
+p {
+  color: green;
+  padding: 10px;
+}
+ul {
+  color: orange;
+}
+li::marker {
+  color: black;
+}
+a {
+  color: blue;
+}
+a:hover {
+  text-decoration: none;
+}
+div {
+  border: solid;
+  background-color: lightgrey;
+  padding: 15px;
+  text-align: center;
+}
